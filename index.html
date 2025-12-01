@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Links</title>
+
+    <link rel="icon" href="./logo.png" type="image/png">
+
+    <style>
+
+        *, body, html {
+            box-sizing: border-box;
+            margin: 0;
+        }
+        body {
+            font-family: system-ui, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            background: url("./background.jpg");
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            padding: 10px 10px;
+            z-index: -1;
+            color: white;
+        }
+        .container {
+            min-width: min(500px, 100%);
+            width: 60%;
+            padding: 20px;
+            background: rgba(11, 60, 100, 0.781);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+
+        h1 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 30px;
+        }
+
+        li {
+            margin: 15px 0;
+        }
+
+        a {
+            display: block;
+            padding: 14px 18px;
+            border-radius: 10px;
+            background: transparent;
+            text-decoration: none;
+            color: #a6b9c5;
+            font-size: 1.1rem;
+            transition: all .2s ease;
+            border: 1px solid #ddd;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+
+        a:hover {
+            background: #e1e1e1;
+            color: #222;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="background"></div>
+        <h1>Javascript Projects</h1>
+
+        <ul>
+            <li><a href="./Draw/index.html">Draw</a></li>
+            <li><a href="./Particles/index.html">Particles V1</a></li>
+            <li><a href="./Particles_2/index.html">Particles V2</a></li>
+            <li><a href="./Image_Particles_3/index.html">Particles V3</a></li>
+            <li><a href="./calculator/calculator.html">Basic Calculator</a></li>
+            <li><a href="./TicTacToe/ticTacToe.html">Tic Tac Toe</a></li>
+            
+        </ul>
+    </div>
+</body>
+</html>
